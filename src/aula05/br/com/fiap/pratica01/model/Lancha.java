@@ -1,4 +1,4 @@
-package aula05.br.com.fiap.exercicio.model;
+package aula05.br.com.fiap.pratica01.model;
 
 public class Lancha {
     private String modelo;

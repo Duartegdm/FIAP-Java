@@ -1,13 +1,14 @@
-package aula05.br.com.fiap.exercicio.model;
+package aula05.br.com.fiap.pratica01.model;
 
-public class Aviao {
+public class Carro {
     private String modelo;
     private int quantidadeDeLugares;
-    private String prefixo;
+    private int quantidadeDePortas;
     private double comprimento;
     private int anoFabricacao;
     private Cor cor;
-    private int quantidadeDeTurbinas;
+    private String placa;
+    private float motor = 1;
 
     public String getModelo() {
         return modelo;
@@ -25,12 +26,12 @@ public class Aviao {
         this.quantidadeDeLugares = quantidadeDeLugares;
     }
 
-    public String getPrefixo() {
-        return prefixo;
+    public int getQuantidadeDePortas() {
+        return quantidadeDePortas;
     }
 
-    public void setPrefixo(String prefixo) {
-        this.prefixo = prefixo;
+    public void setQuantidadeDePortas(int quantidadeDePortas) {
+        this.quantidadeDePortas = quantidadeDePortas;
     }
 
     public double getComprimento() {
@@ -57,11 +58,19 @@ public class Aviao {
         this.cor = cor;
     }
 
-    public int getQuantidadeDeTurbinas() {
-        return quantidadeDeTurbinas;
+    public String getPlaca() {
+        return placa;
     }
 
-    public void setQuantidadeDeTurbinas(int quantidadeDeTurbinas) {
-        this.quantidadeDeTurbinas = quantidadeDeTurbinas;
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
+    public float getMotor() {
+        return motor;
+    }
+
+    public void setMotor(float motor) {
+        this.motor = motor;
     }
 }
