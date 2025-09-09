@@ -16,7 +16,7 @@ public class Cadastro {
 
 
             // Executar o comando SQL de insert, para cadastrar um produto
-            statement.executeUpdate("insert into t_tdspw_produto (cd_produto, nm_produto, qr_produto, ds_produto)" +
+            statement.executeUpdate("insert into t_tdspw_produto (cd_produto, nm_produto, qt_produto, ds_produto)" +
                     "values (1, 'MOUSE GAMER', 50, 'MOUSE ZICA DO EX COORDENADOR DO CURSO')");
 
 
